@@ -1,0 +1,58 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@next/next/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+    "plugins": ["prettier"],
+  "rules": {
+    // Enforce consistent indentation
+    "indent": ["error", 2],
+    // Enforce consistent line breaks
+    "prettier/prettier": "error",
+    
+    // Enforce camelCase naming convention
+    "camelcase": "error",
+    
+    // Require explicit return types on functions and class methods
+    "@typescript-eslint/explicit-function-return-type": "error",
+    
+    // Require explicit accessibility modifiers on class properties and methods
+    "@typescript-eslint/explicit-member-accessibility": "error",
+    
+    // Enforce consistent spacing around type annotations
+    "@typescript-eslint/type-annotation-spacing": "error",
+    
+    // Disallow unused variables
+    "@typescript-eslint/no-unused-vars": "error",
+    
+    // Enforce consistent import order
+    // "import/order": [
+    //   "error",
+    //   {
+    //     "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
+    //     "newlines-between": "always"
+    //   }
+    // ],
+    
+    // Enforce consistent import extensions
+    // "import/extensions": [
+    //   "error",
+    //   "ignorePackages",
+    //   {
+    //     "js": "never",
+    //     "jsx": "never",
+    //     "ts": "never",
+    //     "tsx": "never"
+    //   }
+    // ],
+    
+    // Disallow the use of console.log
+    "no-console": "error",
+    "import/order": "off",
+    "import/extensions": "off"
+  }
+}

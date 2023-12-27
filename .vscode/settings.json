@@ -1,0 +1,6 @@
+{
+    "eslint.options": {
+
+    },
+    "eslint.run": "onType"
+}

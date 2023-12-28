@@ -33,7 +33,7 @@ export default function CircularDeco({
       height={size}
       rounded='full'
       bgGradient={
-        'linear(to-b, rgba(0, 216, 255, 0.3), rgba(19, 75, 78, 0.75) 85%  )'
+        'linear(to-b, rgba(0, 216, 255, 0.3), rgba(19, 75, 78, 0.75) 85%)'
       }
     ></CustomBox>
   )

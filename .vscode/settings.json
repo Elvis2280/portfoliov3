@@ -2,5 +2,8 @@
     "eslint.options": {
 
     },
-    "eslint.run": "onType"
+    "eslint.run": "onType",
+    "yaml.schemas": {
+        "https://json.schemastore.org/yamllint.json": "file:///Users/elvismiranda/Frontend/Personal-projects/portfoliov3-main/.github/workflows/eslint.yml"
+    }
 }

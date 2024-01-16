@@ -159,11 +159,10 @@ function AboutMe(): ReactElement {
                 color='brand.900'
                 fontSize={['initial', 'initial', 'lg']}
               >
-                I&#39;m currently based in Panama. now in my last period at the
-                Interamerican University of Panama. I worked in local and
-                international companies as a Frontend Developer and Software
-                analytic. also develop freelance Fullstack projects/solutions
-                for great clients.
+                I am currently situated in Japan, bringing with me valuable
+                experience from both local and international companies. My
+                professional background includes roles as a Frontend and
+                Fullstack Developer in various organizations.
               </Text>
             </Box>
 
@@ -191,13 +190,15 @@ function AboutMe(): ReactElement {
                 lineHeight={'170%'}
                 letterSpacing='wide'
               >
-                My passion is creating software solutions, I always have new
-                ideas or solutions about things I want to develop so it helps me
-                to improve my skills and always learn new stuff, For me a clean
-                and compressive design is important. Other important things in
-                my life are Music and Japan, Music helps me to focus on my code
-                and Japan pushes me to never give up because of my dreams since
-                I was a child.
+                Since I was a child, I have always played and explored
+                technology. When I tried programming for the first time, I fell
+                in love and knew that this is what I want to pursue in my
+                professional life. I am always looking for new challenges and
+                opportunities to learn. That&apos;s why I consistently create
+                new projects to gain knowledge, not only in coding but also in
+                architecture, design, business logic, etc. In every project, I
+                try to learn something new, whether it&apos;s a new language,
+                framework, library, or something else.
               </Text>
             </Box>
           </Flex>

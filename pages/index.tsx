@@ -91,8 +91,8 @@ function Index(props: projectDataResponse): ReactElement {
               fontSize={['sm', 'lg', 'xl']}
               color={'brand.900'}
             >
-              Experience working in tech companies & freelance projects,
-              developing full-stack apps and web design.
+              Experience working in tech companies and on freelance projects,
+              developing full-stack apps and web designs.
             </Text>
             <Box mt={['8']}>
               <chakra.a

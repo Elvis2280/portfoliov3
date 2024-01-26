@@ -26,7 +26,7 @@ export default function ModalView({
   techStack,
 }: Props): ReactElement {
   return (
-    <Link href={`/projects/${title.replaceAll(' ', '-')}`}>
+    <Link href={`/projects/${title}`}>
       <Flex
         flexDir={['column', 'column', 'row']}
         alignItems={['center', 'center', 'center']}

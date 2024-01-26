@@ -87,7 +87,7 @@ export async function getStaticPaths(): Promise<getStaticPathsType> {
   })
 
   const pathList = getProjects.data.data.map(project => {
-    return { params: { title: project.title.replaceAll(' ', '-') } }
+    return { params: { title: project.title } }
   })
   return {
     paths: pathList,
